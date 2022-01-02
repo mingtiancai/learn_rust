@@ -1,3 +1,4 @@
 main
 */target/*
 .vscode/*
+Cargo.lock
