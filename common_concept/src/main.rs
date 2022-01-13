@@ -1,3 +1,15 @@
+fn another_function() {
+    println!("another function")
+}
+
+fn another_function2(x: i32) {
+    println!("the value is : {} in another function!", x);
+}
+
+fn five() -> i32 {
+    return 5;
+}
+
 fn main() {
     let mut x = 5;
     println!("The value of x is: {}", x);
@@ -15,5 +27,9 @@ fn main() {
     let a = [1, 2, 3, 4];
     println!("a: {}", a[0]);
     let a: [i32; 5] = [1, 2, 3, 4, 5];
-    println!("{}", a[4])
+    println!("{}", a[4]);
+    another_function();
+    another_function2(32);
+    let f = five();
+    println!("f: {}", f);
 }
