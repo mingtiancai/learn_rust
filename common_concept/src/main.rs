@@ -12,4 +12,8 @@ fn main() {
     println!("the value of x is: {}", tup.0);
     println!("the value of y is: {}", tup.1);
     println!("the value of z is: {}", tup.2);
+    let a = [1, 2, 3, 4];
+    println!("a: {}", a[0]);
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    println!("{}", a[4])
 }
