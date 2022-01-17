@@ -16,3 +16,5 @@ cargo run 运行可执行文件 ---release 构建release版本
 
 cargo check 快速检查当前代码是否能通过编译
 
+RUST_BACKTRACE=1 cargo run 打印触发panic的函数调用栈信息
+
