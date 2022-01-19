@@ -2,3 +2,5 @@ main
 */target/*
 .vscode/*
 Cargo.lock
+minigrep/log.txt
+minigrep/sample.txt
